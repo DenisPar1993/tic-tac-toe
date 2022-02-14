@@ -1,0 +1,49 @@
+.cross{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 150px auto 100px;
+    background-color: red;
+    
+    
+}
+.element{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    color: blanchedalmond;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.winning{
+    text-align: center;
+    font-size: 25px;
+}
+.win{
+    font-weight: 700;
+    font-size: 35px;
+}
+.newgame{
+    display: block;
+    margin: 40px auto;
+    background-color: green;
+    color: blanchedalmond;
+    border: none;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
+.onestep{
+    display: block;
+    margin: 40px auto;
+    background-color: yellowgreen;
+    color: blue;
+    border: none;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+}
